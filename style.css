@@ -2,7 +2,107 @@
 @import './fonts.css';
 
 /* Стили по умолчанию (десктоп) */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    .how-to-watch{
+        padding-left: 121px;
+        font-family: Roboto;
+        box-sizing: border-box;
+        padding-top: 21px;
+    }
+    .logo{
+        width: 112px;
+    }
+    header{
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 94px;
+    }
+    .first-item{
+        display: flex;
+    }
+    .second-item{
+        display: flex;
+        padding-left: 38px;
+    }
+    .thrid-item{
+        display: flex;
+        padding-left: 47px;
+    }
+    .first-item img{
+        width: 21px;
+    }
+    .second-item img{
+        width: 22px;
+        height: 22px;
+    }
+    .thrid-item img{
+        width: 20px;
+        height: 22px;
+    }
+    .first-item p{
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    .second-item p{
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    .thrid-item p{
+        padding-left: 12px;
+        padding-top: 2px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        padding-right: 245px;
+    }
+    .content img{
+        padding-top: 28px;
+    }
+    .how-to-watch h1{
+        font-family: Roboto Slab;
+        font-size: 80px;
+        line-height: 81.11px;
+        margin-bottom: 16px;
 
+    }
+    .text p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+    .card{
+        width: 483.63px;
+        height: 200.02px;
+        background-color: #1E4681;
+        border-radius: 5px;
+        color: white;
+    }
+    .promo{
+        padding-left: 288px;
+        padding-top: 84px;
+    }
+    .author{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .card .text{
+        font-family: Roboto Slab;
+        font-size: 25px;
+        line-height: 32.5px;
+        padding-left: 26px;
+        padding-top: 20px;
+    }
+    .card .author{
+        padding-left: 280px;
+        padding-top: 4px;
+    }
 
 /* Стили для планшета */
 
