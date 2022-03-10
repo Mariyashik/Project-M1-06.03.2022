@@ -6,16 +6,22 @@
     margin: 0px;
     padding: 0px;
 }
+/* body{
+    min-width: 1280px;
+} */
     .how-to-watch{
-        padding-left: 121px;
+        /* padding-left: 121px; */
         font-family: Roboto;
         box-sizing: border-box;
         padding-top: 21px;
+        margin: auto;
     }
     .logo{
+        padding-left: 121px;
         width: 112px;
     }
     header{
+        padding-left: 121px;
         font-size: 20px;
         line-height: 23px;
         display: flex;
@@ -70,12 +76,14 @@
         font-size: 80px;
         line-height: 81.11px;
         margin-bottom: 16px;
+        padding-left: 122px;
 
     }
     .text p{
         font-size: 20px;
         line-height: 30px;
         font-weight: normal;
+        padding-left: 122px;
     }
     .card{
         width: 483.63px;
@@ -85,7 +93,7 @@
         color: white;
     }
     .promo{
-        padding-left: 288px;
+        padding-left: 409px;
         padding-top: 84px;
     }
     .author{
@@ -105,6 +113,218 @@
     }
 
 /* Стили для планшета */
+@media (max-width: 1279px){
+    /* body{
+        min-width: 992px;
+    } */
+        .how-to-watch{
+            font-family: Roboto;
+            box-sizing: border-box;
+            padding-top: 21px;
+            margin: auto;
+        }
+        .logo{
+            padding: 0px;
+        }
+        .logo img{
+            padding-left: 70px;
+            width: 64.87px;
+            height: 38.23px;
+        }
+        header{
+            padding-left: 70px;
+            font-size: 12px;
+            line-height: 23px;
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 50px;
+        }
+        .second-item{
+            padding-left: 20px;
+        }
+        .thrid-item{
+            padding-left: 25px;
+        }
+        .first-item img{
+            width: 12.74px;
+            height: 12.16;
+        }
+        .second-item img{
+            width: 12.74px;
+            height: 12.74px;
+            padding-top: 3px;
+        }
+        .thrid-item img{
+            width: 11.58px;
+            height: 12.74px;
+            padding-top: 3px;
+        }
+        .first-item p{
+            padding-left: 5px;
+            padding-top: 1px;
+        }
+        .second-item p{
+            padding-left: 6px;
+            padding-top: 1px;
+        }
+        .thrid-item p{
+            padding-left: 8px;
+            padding-top: 1px;
+        }
+        .content{
+            margin-top: -15px;
+            padding-right: 245px;
+        }
+        .content img{
+            width: 176.07px;
+            padding-top: 17px;
+            padding-right: 56px;
+        }
+        .how-to-watch h1{
+            font-size: 46px;
+            line-height: 46.64px;
+            margin-bottom: 19px;
+            margin-top: 23px;
+            padding-left: 70px;
+    
+        }
+        .text p{
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: normal;
+            padding-left: 70px;
+        }
+        .card{
+            width: 280.11px;
+            height: 115.83px;
+            background-color: #1E4681;
+            border-radius: 2.9px;
+            color: white;
+        }
+        .promo{
+            padding-left: 237px;
+            padding-top: 48px;
+        }
+        .author{
+            font-size: 12px;
+            line-height: 15.6px;
+        }
+        .card .text{
+            font-size: 14px;
+            line-height: 18.2px;
+            padding-left: 16px;
+            padding-top: 10px;
+        }
+        .card .author{
+            padding-left: 160px;
+            padding-top: 2px;
+        }    
+}
 
 
 /* Стили для мобильных экранов */
+@media (max-width: 991px){
+    /* body{
+        min-width: 992px;
+    } */
+        .how-to-watch{
+            padding-top: 36px;
+            margin: auto;
+        }
+        .logo{
+            padding: 0px;
+        }
+        .logo img{
+            padding-left: 36px;
+            width: 52.19px;
+            height: 30.75px;
+        }
+        header{
+            padding-left: 35px;
+            font-size: 10px;
+            line-height: 11.5px;
+            padding-top: 41px;
+        }
+        .second-item{
+            padding-left: 13px;
+        }
+        .thrid-item{
+            padding-left: 19px;
+        }
+        .first-item img{
+            width: 10.25px;
+            height: 9.79;
+        }
+        .second-item img{
+            width: 10.25px;
+            height: 10.25px;
+            padding-top: 0px;
+        }
+        .thrid-item img{
+            width: 9.32px;
+            height: 10.25px;
+            padding-top: 0px;
+        }
+        .first-item p{
+            padding-left: 5px;
+            padding-top: 0px;
+        }
+        .second-item p{
+            padding-left: 5px;
+            padding-top: 0px;
+        }
+        .thrid-item p{
+            padding-left: 6px;
+            padding-top: 0px;
+        }
+        .content{
+            display: block;
+            margin-top: -15px;
+            padding-right: 0px;
+        }
+        .content img{
+            width: 141.68px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-left: 201px;
+        }
+        .how-to-watch h1{
+            font-size: 37px;
+            line-height: 37.51px;
+            margin-bottom: 15px;
+            margin-top: 26px;
+            padding-left: 36px;
+    
+        }
+        .text p{
+            font-size: 10px;
+            line-height: 15px;
+            padding-left: 36px;
+        }
+        .card{
+            width: 225.36px;
+            height: 93.19px;
+            background-color: #1E4681;
+            border-radius: 2.33px;
+            color: white;
+        }
+        .promo{
+            padding-left: 38px;
+            padding-top: 43px;
+        }
+        .author{
+            font-size: 10px;
+            line-height: 13px;
+        }
+        .card .text{
+            font-size: 11px;
+            line-height: 14.3px;
+            padding-left: 13px;
+            padding-top: 9px;
+        }
+        .card .author{
+            padding-left: 125px;
+            padding-top: 3px;
+        }    
+}
+    
