@@ -153,23 +153,668 @@ text-align: center;
 
 
 /* Стили по умолчанию (десктоп) */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    .wrapper-how-to-watch{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+    }
+    .how-to-watch{
+        font-family: Roboto;
+        box-sizing: border-box;
+        padding-top: 21px;
+        margin: auto;
+    }
+    .how-to-watch .logo{
+        padding-left: 121px;
+        width: 112px;
+    }
+    .how-to-watch header{
+        padding-left: 121px;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 94px;
+    }
+    .how-to-watch .first-item{
+        display: flex;
+    }
+    .how-to-watch .second-item{
+        display: flex;
+        padding-left: 38px;
+    }
+    .how-to-watch .thrid-item{
+        display: flex;
+        padding-left: 47px;
+    }
+    .how-to-watch .first-item img{
+        width: 21px;
+    }
+    .how-to-watch .second-item img{
+        width: 22px;
+        height: 22px;
+    }
+    .how-to-watch .thrid-item img{
+        width: 20px;
+        height: 22px;
+    }
+    .how-to-watch .first-item p{
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    .how-to-watch .second-item p{
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    .how-to-watch .thrid-item p{
+        padding-left: 12px;
+        padding-top: 2px;
+    }
+    .how-to-watch .content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        padding-right: 245px;
+    }
+    .how-to-watch .content img{
+        padding-top: 28px;
+    }
+    .how-to-watch h1{
+        font-family: Roboto Slab;
+        font-size: 80px;
+        line-height: 81.11px;
+        margin-bottom: 16px;
+        padding-left: 122px;
 
+    }
+    .how-to-watch .text p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: normal;
+        padding-left: 122px;
+    }
+    .how-to-watch .card{
+        width: 483.63px;
+        height: 200.02px;
+        background-color: #1E4681;
+        border-radius: 5px;
+        color: white;
+    }
+    .how-to-watch .promo{
+        padding-left: 409px;
+        padding-top: 84px;
+    }
+    .how-to-watch .author{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .how-to-watch .card .text{
+        font-family: Roboto Slab;
+        font-size: 25px;
+        line-height: 32.5px;
+        padding-left: 26px;
+        padding-top: 20px;
+    }
+    .how-to-watch .card .author{
+        padding-left: 280px;
+        padding-top: 4px;
+    }
+            .about-course{
+                padding-left: 121px;
+                padding-top: 91px;
+                padding-right: 121px;
+                margin: auto;
+                }
+           .about-course .section-title{
+                margin-top: 83px;
+            }
+            .section-title{
+                font-family: Roboto Slab;
+                font-weight: bold;
+                font-size: 55px;
+                line-height: 55.76px;
+            }
+           .about-course .content{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 19px;
+            }
+            .about-course .text{
+                font-family: Roboto;
+                font-weight: normal;
+                width: 662px;
+                font-size: 24px;
+                line-height: 36px;
+                padding-top: 0px;
+            }
+            .about-course .second-p{
+                padding-top: 36px;
+            }
+            .about-course .images img{
+                width: 366px;
+                padding-right: 6px;
+                padding-top: 24px;
+            }
+            .about-course .bottom{
+                font-family: Roboto;
+                display: flex;
+                padding-top: 71px;
+            }
+            .about-course .title-items{
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 32px;
+                padding-top: 5px;
+            }
+            .about-course .text-items{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 23.4px;
+                width: 150px;
+                padding-top: 7px;
+                padding-left: 0px;
+            }
+            .about-course .items{
+                display: flex;
+                padding-left: 132px;
+                margin-top: 66px;
+            }
+            .about-course .second-item{
+                margin-left: 95px;
+            }
+            .about-course .third-item{
+                padding-top: 0px;
+                margin-left: 93px;
+            } 
+                        .format-study{
+                            padding-left: 121px;
+                            padding-top: 91px;
+                            padding-right: 121px;
+                            margin: auto;
+                        }
+                        .format-study .section-title{
+                            margin-top: 83px;
+                        }
+                        .format-study .content{
+                            display: flex;
+                            margin-top: 127px;
+                        }
+                        .format-study .title{
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 25px;
+                            line-height: 32px;
+                            color: #1E4681;
+                        }
+                        .format-study p{
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 23px;
+                            padding-top: 8px;
+                        }
+                        .format-study .vebinar{
+                            width: 223px;
+                        }
+                        .format-study .access{
+                            width: 271px;
+                            padding-left: 122px;
+                        }
+                        .format-study .communication{
+                            width: 245px;
+                            padding-left: 114px;
+                        }
 
 
 /* Стили для планшета */
 @media (max-width: 1279px){
     .wrapper-one{
         width: 100%;
-        max-width: 833px;
+        max-width: 834px;
         margin: auto;
     }
+        .how-to-watch{
+            font-family: Roboto;
+            box-sizing: border-box;
+            padding-top: 21px;
+            margin: auto;
+        }
+        .how-to-watch .logo{
+            padding: 0px;
+        }
+        .how-to-watch .logo img{
+            padding-left: 70px;
+            width: 64.87px;
+            height: 38.23px;
+        }
+        .how-to-watch header{
+            padding-left: 70px;
+            font-size: 12px;
+            line-height: 23px;
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 50px;
+        }
+        .how-to-watch .second-item{
+            padding-left: 20px;
+        }
+        .how-to-watch .thrid-item{
+            padding-left: 25px;
+        }
+        .how-to-watch .first-item img{
+            width: 12.74px;
+            height: 12.16;
+        }
+        .how-to-watch .second-item img{
+            width: 12.74px;
+            height: 12.74px;
+            padding-top: 3px;
+        }
+        .how-to-watch .thrid-item img{
+            width: 11.58px;
+            height: 12.74px;
+            padding-top: 3px;
+        }
+        .how-to-watch .first-item p{
+            padding-left: 5px;
+            padding-top: 1px;
+        }
+        .how-to-watch .second-item p{
+            padding-left: 6px;
+            padding-top: 1px;
+        }
+        .how-to-watch .thrid-item p{
+            padding-left: 8px;
+            padding-top: 1px;
+        }
+        .how-to-watch .content{
+            margin-top: -15px;
+            padding-right: 86px;
+        }
+        .how-to-watch .content img{
+            width: 176.07px;
+            padding-top: 17px;
+            padding-right: 56px;
+        }
+        .how-to-watch h1{
+            font-size: 46px;
+            line-height: 46.64px;
+            margin-bottom: 19px;
+            margin-top: 23px;
+            padding-left: 70px;
+    
+        }
+        .how-to-watch .text p{
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: normal;
+            padding-left: 70px;
+        }
+        .how-to-watch .card{
+            width: 280.11px;
+            height: 115.83px;
+            background-color: #1E4681;
+            border-radius: 2.9px;
+            color: white;
+        }
+        .how-to-watch .promo{
+            padding-left: 237px;
+            padding-top: 48px;
+        }
+        .how-to-watch .author{
+            font-size: 12px;
+            line-height: 15.6px;
+        }
+        .how-to-watch .card .text{
+            font-size: 14px;
+            line-height: 18.2px;
+            padding-left: 16px;
+            padding-top: 10px;
+        }
+        .how-to-watch .card .author{
+            padding-left: 160px;
+            padding-top: 2px;
+        }    
+                    .about-course{
+                        padding-left: 70px;
+                        padding-top: 16px;
+                        padding-right: 67px;
+                        margin: auto;
+                        }
+                    .about-course .section-title{
+                        margin-top: 83px;
+                    }
+                    .section-title{
+                        font-size: 32px;
+                        line-height: 32.44px;
+                    }
+                    .about-course .content{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 0px;
+                    }
+                    .about-course .text{
+                        width: 383.41px;
+                        font-size: 14px;
+                        line-height: 21px;
+                        padding-top: 11px;
+                    }
+                    .about-course .firsr-p{
+                        padding-left: 0px;
+                    }
+                    .about-course .second-p{
+                        padding-top: 0px;
+                    }
+                    .about-course .images img{
+                        width: 212px;
+                        padding-right: 6px;
+                        padding-top: 24px;
+                    }
+                    .about-course .bottom{
+                        width: 70%;
+                        font-family: Roboto;
+                        display: flex;
+                        padding-top: 40px;
+                    }
+                    .about-course .second-images img{
+                        width: 134.37px;
+                        height: 117.57px;
+                    }
+                    .about-course .title-items{
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 19.5px;
+                        padding-top: 5px;
+                    }
+                    .about-course .text-items{
+                        font-size: 11px;
+                        font-weight: 400;
+                        line-height: 14.3px;
+                        width: 150px;
+                        padding-top: 3px;
+                        padding-left: 0px;
+                    }
+                    .about-course .items{
+                        width: 370px;
+                        display: flex;
+                        padding-left: 76px;
+                        margin-top: 36px;
+                    }
+                    .about-course .second-item{
+                        margin-left: -8px;
+                    }
+                    .about-course .third-item{
+                        padding-top: 0px;
+                        margin-left: -10px;
+                    } 
+                                .format-study{
+                                    padding-left: 149px;
+                                    padding-top: 16px;
+                                    margin: auto;
+                                }
+                                .format-study .section-title{
+                                    margin-top: 83px;
+                                }
+                                .format-study .content{
+                                    display: flex;
+                                    margin-top: 74px;
+                                }
+                                .format-study .title{
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                    line-height: 19px;
+                                    color: #1E4681;
+                                }
+                                .format-study p{
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 11px;
+                                    line-height: 14px;
+                                    padding-top: 4px;
+                                }
+                                .format-study .vebinar{
+                                    width: 153px;
+                                }
+                                .format-study .access{
+                                    width: 172px;
+                                    padding-left: 47px;
+                                }
+                                .format-study .communication{
+                                    width: 142px;
+                                    padding-left: 50px;
+                                }
+}
+
+
+/* Стили для мобильных экранов */
+@media (max-width: 991px){
 
     .wrapper-two{
         width: 100%;
         max-width: 833px;
         margin: auto;
     }
-}
+        .how-to-watch{
+            padding-top: 36px;
+            margin: auto;
+        }
+        .how-to-watch .logo{
+            padding: 0px;
+        }
+        .how-to-watch .logo img{
+            padding-left: 36px;
+            width: 52.19px;
+            height: 30.75px;
+        }
+        .how-to-watch header{
+            padding-left: 35px;
+            font-size: 10px;
+            line-height: 11.5px;
+            padding-top: 41px;
+        }
+        .how-to-watch .second-item{
+            padding-left: 13px;
+        }
+        .how-to-watch .thrid-item{
+            padding-left: 19px;
+        }
+        .how-to-watch .first-item img{
+            width: 10.25px;
+            height: 9.79;
+        }
+        .how-to-watch .second-item img{
+            width: 10.25px;
+            height: 10.25px;
+            padding-top: 0px;
+        }
+        .how-to-watch .thrid-item img{
+            width: 9.32px;
+            height: 10.25px;
+            padding-top: 0px;
+        }
+        .how-to-watch .first-item p{
+            padding-left: 5px;
+            padding-top: 0px;
+        }
+        .how-to-watch .second-item p{
+            padding-left: 5px;
+            padding-top: 0px;
+        }
+        .how-to-watch .thrid-item p{
+            padding-left: 6px;
+            padding-top: 0px;
+        }
+        .how-to-watch .content{
+            display: block;
+            margin-top: -15px;
+            padding-right: 0px;
+        }
+        .how-to-watch .content img{
+            width: 141.68px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-left: 201px;
+        }
+        .how-to-watch h1{
+            font-size: 37px;
+            line-height: 37.51px;
+            margin-bottom: 15px;
+            margin-top: 26px;
+            padding-left: 36px;
+    
+        }
+        .how-to-watch .text p{
+            font-size: 10px;
+            line-height: 15px;
+            padding-left: 36px;
+        }
+        .how-to-watch .card{
+            width: 225.36px;
+            height: 93.19px;
+            background-color: #1E4681;
+            border-radius: 2.33px;
+            color: white;
+        }
+        .how-to-watch .promo{
+            padding-left: 38px;
+            padding-top: 43px;
+        }
+        .how-to-watch .author{
+            font-size: 10px;
+            line-height: 13px;
+        }
+        .how-to-watch .card .text{
+            font-size: 11px;
+            line-height: 14.3px;
+            padding-left: 13px;
+            padding-top: 9px;
+        }
+        .how-to-watch .card .author{
+            padding-left: 125px;
+            padding-top: 3px;
+        }    
+                .about-course{
+                    padding-left: 37px;
+                    padding-top: 0px;
+                    padding-right: 67px;
+                    margin-top: 0px;
+                    margin: auto;
+                }
+                .about-course .section-title{
+                    margin-top: 75px;
+                }
+                .section-title{
+                    font-family: Roboto Slab;
+                    font-weight: bold;
+                    font-size: 26px;
+                    line-height: 26.36px;
+                }
+                .about-course .content{
+                    display: block;
+                    padding-top: 0px;
+                }
+                .about-course .text{
+                    width: 308.47px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    padding-top: 8px;
+                }
+                .about-course .firsr-p{
+                    padding-left: 0px;
+                }
+                .about-course .second-p{
+                    padding-top: 0px;
+                }
+                .about-course .images img{
+                    width: 170.55px;
+                    padding-right: 0px;
+                    padding-top: 14px;
+                    padding-left: 64px;
+                }
+                .about-course .bottom{
+                    width: 80%;
+                    padding-top: 1px;
+                    margin-right: 0px;
+                }
+                .about-course .second-images img{
+                   display: none;
+                }
+                .about-course .title-items{
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 15.6px;
+                    padding-top: 5px;
+                }
+                .about-course .text-items{
+                    font-size: 10px;
+                    font-weight: 400;
+                    line-height: 13px;
+                    padding-top: 3px;
+                    padding-left: 0px;
+                }
+                .about-course .items{
+                    padding-left: 0px;
+                    margin-left: -1px;
+                    flex-wrap: wrap;
+                }
+                .about-course .first-item{
+                    width: 100px;
+                }
+                .about-course .second-item{
+                    width: 97px;
+                    padding-left: 26px; 
+                }
+                .about-course .third-item{
+                    width: 100px;
+                    padding-top: 21px;
+                    margin-left: -1px;
+                } 
+                            .format-study{
+                                padding-left: 266px;
+                                padding-top: 16px;
+                                margin: auto;
+                            }
+                            .format-study .section-title{
+                                margin-top: 52px;
+                            }
+                            .format-study .content{
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 34px;
+                                margin-left: -1px;
+                            }
+                            .format-study .title{
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: #1E4681;
+                            }
+                            .format-study p{
+                                font-size: 10px;
+                                line-height: 13px;
+                                padding-top: 4px;
+                            }
+                            .format-study .vebinar{
+                                width: 180px;
+                            }
+                            .format-study .access{
+                                width: 165px;
+                                padding-left: 0px;
+                                padding-top: 31px;
+                            }
+                            .format-study .communication{
+                                width: 159px;
+                                padding-left: 0px;
+                                padding-top: 29px;
+                            }
 
 .information{
     position: absolute;
@@ -396,5 +1041,5 @@ text-align: center;
 
     color: #FFFFFF;
 }
-
+}
 /* Стили для мобильных экранов */ 
