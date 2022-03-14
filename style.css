@@ -179,12 +179,52 @@
                 padding-top: 0px;
                 margin-left: 93px;
             } 
+                        .format-study{
+                            padding-left: 121px;
+                            padding-top: 91px;
+                            padding-right: 121px;
+                            margin: auto;
+                        }
+                        .format-study .section-title{
+                            margin-top: 83px;
+                        }
+                        .format-study .content{
+                            display: flex;
+                            margin-top: 127px;
+                        }
+                        .format-study .title{
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 25px;
+                            line-height: 32px;
+                            color: #1E4681;
+                        }
+                        .format-study p{
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 23px;
+                            padding-top: 8px;
+                        }
+                        .format-study .vebinar{
+                            width: 223px;
+                        }
+                        .format-study .access{
+                            width: 271px;
+                            padding-left: 122px;
+                        }
+                        .format-study .communication{
+                            width: 245px;
+                            padding-left: 114px;
+                        }
 
 /* Стили для планшета */
 @media (max-width: 1279px){
     .wrapper-how-to-watch{
         width: 100%;
-        max-width: 833px;
+        max-width: 834px;
         margin: auto;
     }
         .how-to-watch{
@@ -361,6 +401,45 @@
                         padding-top: 0px;
                         margin-left: -10px;
                     } 
+                                .format-study{
+                                    padding-left: 149px;
+                                    padding-top: 16px;
+                                    margin: auto;
+                                }
+                                .format-study .section-title{
+                                    margin-top: 83px;
+                                }
+                                .format-study .content{
+                                    display: flex;
+                                    margin-top: 74px;
+                                }
+                                .format-study .title{
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                    line-height: 19px;
+                                    color: #1E4681;
+                                }
+                                .format-study p{
+                                    font-family: Roboto;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 11px;
+                                    line-height: 14px;
+                                    padding-top: 4px;
+                                }
+                                .format-study .vebinar{
+                                    width: 153px;
+                                }
+                                .format-study .access{
+                                    width: 172px;
+                                    padding-left: 47px;
+                                }
+                                .format-study .communication{
+                                    width: 142px;
+                                    padding-left: 50px;
+                                }
 }
 
 
@@ -546,5 +625,42 @@
                     padding-top: 21px;
                     margin-left: -1px;
                 } 
+                            .format-study{
+                                padding-left: 266px;
+                                padding-top: 16px;
+                                margin: auto;
+                            }
+                            .format-study .section-title{
+                                margin-top: 52px;
+                            }
+                            .format-study .content{
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 34px;
+                                margin-left: -1px;
+                            }
+                            .format-study .title{
+                                font-size: 12px;
+                                line-height: 16px;
+                                color: #1E4681;
+                            }
+                            .format-study p{
+                                font-size: 10px;
+                                line-height: 13px;
+                                padding-top: 4px;
+                            }
+                            .format-study .vebinar{
+                                width: 180px;
+                            }
+                            .format-study .access{
+                                width: 165px;
+                                padding-left: 0px;
+                                padding-top: 31px;
+                            }
+                            .format-study .communication{
+                                width: 159px;
+                                padding-left: 0px;
+                                padding-top: 29px;
+                            }
 }
     
