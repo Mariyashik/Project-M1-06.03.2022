@@ -5,11 +5,11 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    padding-left: 74px;
+    padding-left: 84px;
     padding-right: 75px;
     max-width: 1600px;
 }
-.section-title {
+.what-know .section-title {
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
@@ -45,7 +45,7 @@ width: 44%;
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    padding-left: 74px;
+    padding-left: 69px;
     padding-right: 75px;
     max-width: 1600px;
 }
@@ -159,7 +159,7 @@ text-align: center;
 }
     .wrapper-how-to-watch{
         width: 100%;
-        max-width: 1440px;
+        max-width: 1600px;
         margin: auto;
     }
     .how-to-watch{
@@ -334,7 +334,7 @@ text-align: center;
                             padding-left: 121px;
                             padding-top: 91px;
                             padding-right: 121px;
-                            margin: auto;
+                            margin-bottom: 218px;
                         }
                         .format-study .section-title{
                             margin-top: 83px;
@@ -364,11 +364,13 @@ text-align: center;
                         }
                         .format-study .access{
                             width: 271px;
-                            padding-left: 122px;
+                            padding-left: 0px;
+                            margin-left: 123px;
                         }
                         .format-study .communication{
                             width: 245px;
-                            padding-left: 114px;
+                            padding-left: 0px;
+                            margin-left: 113px;
                         }
 
 
