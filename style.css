@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
 }
-    .wrapper{
+    .wrapper-how-to-watch{
         width: 100%;
         max-width: 1440px;
         margin: auto;
@@ -189,7 +189,7 @@
 
 /* Стили для планшета */
 @media (max-width: 1279px){
-    .wrapper{
+    .wrapper-how-to-watch{
         width: 100%;
         max-width: 833px;
         margin: auto;
@@ -372,8 +372,8 @@
 
 
 /* Стили для мобильных экранов */
-/* @media (max-width: 991px){
-    .wrapper{
+@media (max-width: 991px){
+    .wrapper-how-to-watch{
         width: 100%;
         max-width: 375px;
         margin: auto;
@@ -382,58 +382,58 @@
             padding-top: 36px;
             margin: auto;
         }
-        .logo{
+        .how-to-watch .logo{
             padding: 0px;
         }
-        .logo img{
+        .how-to-watch .logo img{
             padding-left: 36px;
             width: 52.19px;
             height: 30.75px;
         }
-        header{
+        .how-to-watch header{
             padding-left: 35px;
             font-size: 10px;
             line-height: 11.5px;
             padding-top: 41px;
         }
-        .second-item{
+        .how-to-watch .second-item{
             padding-left: 13px;
         }
-        .thrid-item{
+        .how-to-watch .thrid-item{
             padding-left: 19px;
         }
-        .first-item img{
+        .how-to-watch .first-item img{
             width: 10.25px;
             height: 9.79;
         }
-        .second-item img{
+        .how-to-watch .second-item img{
             width: 10.25px;
             height: 10.25px;
             padding-top: 0px;
         }
-        .thrid-item img{
+        .how-to-watch .thrid-item img{
             width: 9.32px;
             height: 10.25px;
             padding-top: 0px;
         }
-        .first-item p{
+        .how-to-watch .first-item p{
             padding-left: 5px;
             padding-top: 0px;
         }
-        .second-item p{
+        .how-to-watch .second-item p{
             padding-left: 5px;
             padding-top: 0px;
         }
-        .thrid-item p{
+        .how-to-watch .thrid-item p{
             padding-left: 6px;
             padding-top: 0px;
         }
-        .content{
+        .how-to-watch .content{
             display: block;
             margin-top: -15px;
             padding-right: 0px;
         }
-        .content img{
+        .how-to-watch .content img{
             width: 141.68px;
             padding-top: 0px;
             padding-right: 0px;
@@ -447,35 +447,111 @@
             padding-left: 36px;
     
         }
-        .text p{
+        .how-to-watch .text p{
             font-size: 10px;
             line-height: 15px;
             padding-left: 36px;
         }
-        .card{
+        .how-to-watch .card{
             width: 225.36px;
             height: 93.19px;
             background-color: #1E4681;
             border-radius: 2.33px;
             color: white;
         }
-        .promo{
+        .how-to-watch .promo{
             padding-left: 38px;
             padding-top: 43px;
         }
-        .author{
+        .how-to-watch .author{
             font-size: 10px;
             line-height: 13px;
         }
-        .card .text{
+        .how-to-watch .card .text{
             font-size: 11px;
             line-height: 14.3px;
             padding-left: 13px;
             padding-top: 9px;
         }
-        .card .author{
+        .how-to-watch .card .author{
             padding-left: 125px;
             padding-top: 3px;
         }    
-} */
+                .about-course{
+                    padding-left: 37px;
+                    padding-top: 0px;
+                    padding-right: 67px;
+                    margin-top: 0px;
+                    margin: auto;
+                }
+                .about-course .section-title{
+                    margin-top: 75px;
+                }
+                .section-title{
+                    font-family: Roboto Slab;
+                    font-weight: bold;
+                    font-size: 26px;
+                    line-height: 26.36px;
+                }
+                .about-course .content{
+                    display: block;
+                    padding-top: 0px;
+                }
+                .about-course .text{
+                    width: 308.47px;
+                    font-size: 12px;
+                    line-height: 18px;
+                    padding-top: 8px;
+                }
+                .about-course .firsr-p{
+                    padding-left: 0px;
+                }
+                .about-course .second-p{
+                    padding-top: 0px;
+                }
+                .about-course .images img{
+                    width: 170.55px;
+                    padding-right: 0px;
+                    padding-top: 14px;
+                    padding-left: 64px;
+                }
+                .about-course .bottom{
+                    width: 80%;
+                    padding-top: 1px;
+                    margin-right: 0px;
+                }
+                .about-course .second-images img{
+                   display: none;
+                }
+                .about-course .title-items{
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 15.6px;
+                    padding-top: 5px;
+                }
+                .about-course .text-items{
+                    font-size: 10px;
+                    font-weight: 400;
+                    line-height: 13px;
+                    padding-top: 3px;
+                    padding-left: 0px;
+                }
+                .about-course .items{
+                    padding-left: 0px;
+                    margin-left: -1px;
+                    flex-wrap: wrap;
+                }
+                .about-course .first-item{
+                    width: 100px;
+                }
+                .about-course .second-item{
+                    width: 97px;
+                    padding-left: 26px; 
+                }
+                .about-course .third-item{
+                    width: 100px;
+                    padding-top: 21px;
+                    margin-left: -1px;
+                } 
+}
     
