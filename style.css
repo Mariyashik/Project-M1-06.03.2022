@@ -5,9 +5,9 @@
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-    padding-left: 74px;
-    padding-right: 75px;
-    max-width: 1600px;
+    /* padding-left: 74px;
+    padding-right: 75px; */
+    max-width: 1440px;
 }
 .section-title {
 font-family: 'Roboto Slab';
@@ -15,10 +15,12 @@ font-style: normal;
 font-weight: 700;
 font-size: 55px;
 line-height: 101.38%;
-margin-left: 37px;
+margin-left: 121px;
 height: 93px;
+width: 1319px;
 }
 .cheklist {
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -26,11 +28,13 @@ font-size: 24px;
 line-height: 150%;
 color: #000000;
 padding: 0 auto;
-margin-left: 53px;
-margin-top: 21px;
-margin-bottom: 248px;
-width: 44%; 
+margin-left: 138px;
+margin-top: 20px;
+margin-bottom: 225px;
+/* margin-right: 565px; */
+width: 45.5%; 
 }
+
 
 /* AF Программа курса */
 
@@ -44,21 +48,21 @@ width: 44%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
-    padding-left: 74px;
-    padding-right: 75px;
-    max-width: 1600px;
+    padding-bottom: 101px;
+    max-width: 1440px;
 }
 .programm-class {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 95px;
+    margin-top: 77px;
+    padding-left: 65px;
+     
 }
 .infocard {
-    margin: 20px;
-    width: 30.5%;
+    margin: 18.8px;
+    width: 29%;
     box-shadow: 0 0 8px 0px gray;
     border-radius: 30px;
     background-color: white;
@@ -69,28 +73,33 @@ width: 44%;
     border-radius: 15px 15px 0 0
 }
 .info {
-    min-height: 168px ; 
-    padding: 11px 14px 23px 20px;
+    width: 100%;
+    height: 168px;
+    /* min-height: 169px ;  */
+    /* padding: 10px 0px 27px 19px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
 .subtitle {
+    width: 100%;
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 130%;
+    line-height: 32px;
+    padding: 10px 0px 23px 22px;
+    text-align: justify;
 }
 .date-name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 130%;
+    line-height: 32px;
+    padding: 0px 15px 23px 19px;
 }
-
 
 /* конец АФ  */
 
@@ -101,6 +110,14 @@ width: 44%;
 
 
 /* Стили для планшета */
+
+
+
+
+
+
+
+
 
 
 /* Стили для мобильных экранов */
