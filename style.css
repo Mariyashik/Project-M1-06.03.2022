@@ -1,6 +1,157 @@
 @import './normalize.css';
 @import './fonts.css';
 
+.what-know { 
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 74px;
+    padding-right: 75px;
+    max-width: 1600px;
+}
+.section-title {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+margin-left: 37px;
+height: 93px;
+}
+.cheklist {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+padding: 0 auto;
+margin-left: 53px;
+margin-top: 21px;
+margin-bottom: 248px;
+width: 44%; 
+}
+
+/* AF Программа курса */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.programm-class-general {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 74px;
+    padding-right: 75px;
+    max-width: 1600px;
+}
+.programm-class {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 95px;
+}
+.infocard {
+    margin: 20px;
+    width: 30.5%;
+    box-shadow: 0 0 8px 0px gray;
+    border-radius: 30px;
+    background-color: white;
+}
+.imgcard {
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0 0
+}
+.info {
+    min-height: 168px ; 
+    padding: 11px 14px 23px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.subtitle {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+.date-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+}
+.kurscount{
+background: #EFEFEF;
+}
+.review{
+    display: block;
+margin-left: auto;
+margin-right: auto ;
+    background: #FFFFFF;
+box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+width: 791px;
+height: 451px;
+}
+.review p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+width: 700px;
+padding-left: 45px;
+padding-top: 40px;
+}
+.review h3{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 101.38%;
+}
+.kurscount h2{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+
+height: 93px;
+text-align: center;
+}
+.kurs1{
+    margin-bottom: 29px;
+    margin-left: 26px;
+    
+}
+.review-flex{
+    display: flex;
+    
+}
+.review-aside{
+    margin-left: 30px;
+    margin-top:  50px;
+}
+.kurs2{
+    margin-top: 30px;
+    margin-bottom: 68px;
+}
+/* конец АФ  */
+
+
+
+
 /* Стили по умолчанию (десктоп) */
 *{
     margin: 0px;
@@ -220,9 +371,10 @@
                             padding-left: 114px;
                         }
 
+
 /* Стили для планшета */
 @media (max-width: 1279px){
-    .wrapper-how-to-watch{
+    .wrapper-one{
         width: 100%;
         max-width: 834px;
         margin: auto;
@@ -445,9 +597,10 @@
 
 /* Стили для мобильных экранов */
 @media (max-width: 991px){
-    .wrapper-how-to-watch{
+
+    .wrapper-two{
         width: 100%;
-        max-width: 375px;
+        max-width: 833px;
         margin: auto;
     }
         .how-to-watch{
@@ -662,5 +815,231 @@
                                 padding-left: 0px;
                                 padding-top: 29px;
                             }
+
+.information{
+    position: absolute;
+    width: 398px;
+    height: 363.46px;
+    left: -23px;
+    top: 3910px;
+
+    background: #9DC9C8;
+
 }
-    
+
+.information .start-of-course{
+    position: absolute;
+    width: 224px;
+    height: 63px;
+    left: 54px;
+    top: 40px;
+
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information .price{
+    position: absolute;
+    width: 79.22px;
+    height: 14.91px;
+    left: 54px;
+    top: 139.33px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information .num{
+    position: absolute;
+    width: 224.13px;
+    height: 84.34px;
+    left: 54px;
+    top: 130.3px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information .for-levels{
+    position: absolute;
+    width: 137px;
+    height: 14.91px;
+    left: 54px;
+    top: 230.53px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information .text-one{
+    position: absolute;
+    width: 138px;
+    height: 47px;
+    left: 54px;
+    top: 253px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information .come-now{
+    position: absolute;
+    width: 151px;
+    height: 14px;
+    left: 203px;
+    top: 230.53px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information .text-two{
+    position: absolute;
+    width: 140px;
+    height: 38px;
+    left: 203px;
+    top: 253px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 101.38%;
+
+    color: #000000;
+}
+
+.information-two{
+    position: absolute;
+    width: 394px;
+    height: 251px;
+    left: -19px;
+    top: 4273px;
+
+    background: #000000;
+}
+
+.information-two .synchro{
+    position: absolute;
+    width: 53.59px;
+    height: 31.69px;
+    left: 54px;
+    top: 24.3px;
+}
+.information-two .mobile-icon{
+    position: absolute;
+    width: 12.58px;
+    height: 12.58px;
+    left: 54px;
+    top: 125px;
+}
+
+.information-two .phone-number{
+    position: absolute;
+    width: 107.17px;
+    height: 18.64px;
+    left: 76px;
+    top: 116px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 101.38%;
+
+    color: #FFFFFF;
+}
+
+.information-two .mail-icon{
+    position: absolute;
+    width: 12.58px;
+    height: 8.39px;
+    left: 54px;
+    top: 147px;
+}
+
+.information-two .mail-address{
+    position: absolute;
+    width: 125.35px;
+    height: 18.64px;
+    left: 76px;
+    top: 137px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 101.38%;
+
+    color: #FFFFFF;
+}
+
+.information-two .insta{
+    position: absolute;
+    width: 15.38px;
+    height: 15.38px;
+    left: 54px;
+    top: 70px;
+}
+
+.information-two .facebook{
+    position: absolute;
+    width: 14.91px;
+    height: 14.91px;
+    left: 77px;
+    top: 70px;
+}
+
+.information-two .vk{
+    position: absolute;
+    width: 16.31px;
+    height: 16.31px;
+    left: 100px;
+    top: 70px;
+}
+
+.information-two .whatsapp{
+    position: absolute;
+    width: 15.84px;
+    height: 15.84px;
+    left: 125px;
+    top: 70px;
+}
+
+.information-two .watermark{
+    position: absolute;
+    width: 141px;
+    height: 19px;
+    left: 54px;
+    top: 210px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 101.38%;
+
+    color: #FFFFFF;
+}
+}
+/* Стили для мобильных экранов */ 
