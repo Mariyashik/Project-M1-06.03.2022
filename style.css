@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
     .wrapper-how-to-watch{
         width: 100%;
@@ -493,7 +494,7 @@
 @media (max-width: 1279px){
     .wrapper-one{
         width: 100%;
-        max-width: 1000px;
+        max-width: 834px;
         margin: auto;
     }
         .how-to-watch{
@@ -709,6 +710,69 @@
                                     width: 142px;
                                     padding-left: 50px;
                                 }
+
+                                    .what-know { 
+                                        padding-left: 70.08px;
+                                        padding-right: 370.67px;
+                                        max-width: 834px;
+                                    }
+                                    .what-know .section-title {
+                                        margin-left:9.84px;
+                                        font-size: 32px;
+                                        line-height: 32.44px;
+                                        height: 53.86px;
+                                    }
+                                    .what-know .cheklist {
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                        margin-left: 9.84px;
+                                        margin-top: 12.16px;
+                                        margin-bottom: 143.63px;
+                                        margin-right: 0px;
+                                        width: 383.41px;
+                                    }
+                                        .programm-class-general {
+                                            padding-left: 48.65px;
+                                            padding-right:49.23px;
+                                            max-width: 834px;
+                                        }
+                                        .programm-class {
+                                            margin-top: 55.02px;
+                                        }
+                                        .programm-class-general .section-title{
+                                            margin-left: 21.43px;
+                                            padding-left: 0pt;
+                                            font-size: 32px;
+                                            line-height: 32.44px;
+                                            height: 53.86px;
+                                        }
+                                        .programm-class .infocard {
+                                            width: 231.09px;
+                                            height: 189.97px;
+                                            margin: 10.7px;
+                                        }
+                                        .programm-class .imgcard {
+                                            width: 231.09px;
+                                            height: 92.6px;
+
+                                        }
+                                        .programm-class .info {
+                                            min-height: 97.3px ; 
+                                            padding: 14px 14px 23px 20px;
+    
+                                        
+                                        }
+                                        .programm-class .subtitle {
+                                            font-size: 17px;
+                                            line-height: 21.1px;
+
+                                        }
+                                        .programm-class .date-name {
+                                            font-size: 14px;
+                                            line-height: 18.2px;
+
+                                        }
+
 }
 
 
@@ -932,6 +996,75 @@
                                 padding-left: 0px;
                                 padding-top: 29px;
                             }
+
+                                .what-know { 
+                                    padding-left: 36px;
+                                    padding-right: 32px;
+                                    max-width: 376px;
+                                }
+                                .what-know .section-title {
+                                margin-left: 0px;
+                                font-size: 26px;
+                                line-height: 26.36px;
+                                height: 43.34px;
+                                }
+                                .what-know .cheklist {
+                                font-size: 12px;
+                                line-height: 150%;
+                                margin-left: 0px;
+                                margin-top: 10px;
+                                margin-bottom: 85px;
+                                margin-right: 0px;
+                                width: 299px;
+                                }
+                                    .programm-class-general {
+                                        padding-left: 34px;
+                                        padding-right:0px;
+                                    }
+                                    .programm-class {
+                                        margin-top: 25px;
+                                        padding-left: 44px;
+                                        padding-top: 14px;
+      
+                                    }
+                                    .programm-class-general .section-title{
+                                        margin-left: 0px;
+                                        padding-left: 0px;
+                                        font-size: 26px;
+                                        line-height: 26.36px;
+                                        height: 26.36px;
+                                    }
+                                    .programm-class .infocard {
+                                        width: 185.92px;
+                                        height: 152.84px;
+                                        margin: 12.8px;
+                                        flex-direction: column;
+      
+                                    }
+                                    .programm-class .imgcard {
+                                        width: 185.92px;
+                                        height: 76px;
+
+                                    }
+                                    .programm-class .info {
+                                        min-height: 78.28px ; 
+                                        padding: 0px 14px 0px 20px;
+ 
+                                    
+                                    }
+                                    .programm-class .subtitle {
+                                        font-size: 14px;
+                                        line-height: 18.2px;
+                                        padding-bottom: 4px;
+
+                                       
+                                    }
+                                    .programm-class .date-name {
+                                        font-size: 12px;
+                                        line-height: 15.6px;
+
+                                    }                         
+
 
 .information{
     position: absolute;
