@@ -1,10 +1,53 @@
 @import './normalize.css';
 @import './fonts.css';
+<<<<<<< HEAD
 /* Стили по умолчанию (десктоп) */
+=======
+
+.what-know { 
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-left: 74px;
+    padding-right: 75px; */
+    max-width: 1440px;
+}
+.section-title {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+margin-left: 121px;
+height: 93px;
+width: 1319px;
+}
+.cheklist {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+padding: 0 auto;
+margin-left: 138px;
+margin-top: 20px;
+margin-bottom: 225px;
+/* margin-right: 565px; */
+width: 45.5%; 
+}
+
+
+/* AF Программа курса */
+
+>>>>>>> e5819a88aa810774765d8e69cc5582dbc20e8cd9
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+<<<<<<< HEAD
     .wrapper-how-to-watch{
         width: 100%;
         max-width: 1600px;
@@ -454,6 +497,72 @@
                                                                         .footer .mobile-icon{
                                                                             margin-left: -20px;
                                                                             padding-right: 22px;
+=======
+.programm-class-general {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 101px;
+    max-width: 1440px;
+}
+.programm-class {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 77px;
+    padding-left: 65px;
+     
+}
+.infocard {
+    margin: 18.8px;
+    width: 29%;
+    box-shadow: 0 0 8px 0px gray;
+    border-radius: 30px;
+    background-color: white;
+}
+.imgcard {
+    width: 100%;
+    height: 160px;
+    border-radius: 15px 15px 0 0
+}
+.info {
+    width: 100%;
+    height: 168px;
+    /* min-height: 169px ;  */
+    /* padding: 10px 0px 27px 19px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.subtitle {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 10px 0px 23px 22px;
+    text-align: justify;
+}
+.date-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    padding: 0px 15px 23px 19px;
+}
+
+/* конец АФ  */
+
+
+
+
+/* Стили по умолчанию (десктоп) */
+>>>>>>> e5819a88aa810774765d8e69cc5582dbc20e8cd9
 
                                                                         }
                                                                         .footer .mobile-icon img{
@@ -493,7 +602,7 @@
 @media (max-width: 1279px){
     .wrapper-one{
         width: 100%;
-        max-width: 1000px;
+        max-width: 834px;
         margin: auto;
     }
         .how-to-watch{
@@ -709,9 +818,73 @@
                                     width: 142px;
                                     padding-left: 50px;
                                 }
+
+                                    .what-know { 
+                                        padding-left: 70.08px;
+                                        padding-right: 370.67px;
+                                        max-width: 834px;
+                                    }
+                                    .what-know .section-title {
+                                        margin-left:9.84px;
+                                        font-size: 32px;
+                                        line-height: 32.44px;
+                                        height: 53.86px;
+                                    }
+                                    .what-know .cheklist {
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                        margin-left: 9.84px;
+                                        margin-top: 12.16px;
+                                        margin-bottom: 143.63px;
+                                        margin-right: 0px;
+                                        width: 383.41px;
+                                    }
+                                        .programm-class-general {
+                                            padding-left: 48.65px;
+                                            padding-right:49.23px;
+                                            max-width: 834px;
+                                        }
+                                        .programm-class {
+                                            margin-top: 55.02px;
+                                        }
+                                        .programm-class-general .section-title{
+                                            margin-left: 21.43px;
+                                            padding-left: 0pt;
+                                            font-size: 32px;
+                                            line-height: 32.44px;
+                                            height: 53.86px;
+                                        }
+                                        .programm-class .infocard {
+                                            width: 231.09px;
+                                            height: 189.97px;
+                                            margin: 10.7px;
+                                        }
+                                        .programm-class .imgcard {
+                                            width: 231.09px;
+                                            height: 92.6px;
+
+                                        }
+                                        .programm-class .info {
+                                            min-height: 97.3px ; 
+                                            padding: 14px 14px 23px 20px;
+    
+                                        
+                                        }
+                                        .programm-class .subtitle {
+                                            font-size: 17px;
+                                            line-height: 21.1px;
+
+                                        }
+                                        .programm-class .date-name {
+                                            font-size: 14px;
+                                            line-height: 18.2px;
+
+                                        }
+
 }
 
 
+<<<<<<< HEAD
 /* Стили для мобильных экранов */
 @media (max-width: 991px){
 
@@ -932,6 +1105,75 @@
                                 padding-left: 0px;
                                 padding-top: 29px;
                             }
+
+                                .what-know { 
+                                    padding-left: 36px;
+                                    padding-right: 32px;
+                                    max-width: 376px;
+                                }
+                                .what-know .section-title {
+                                margin-left: 0px;
+                                font-size: 26px;
+                                line-height: 26.36px;
+                                height: 43.34px;
+                                }
+                                .what-know .cheklist {
+                                font-size: 12px;
+                                line-height: 150%;
+                                margin-left: 0px;
+                                margin-top: 10px;
+                                margin-bottom: 85px;
+                                margin-right: 0px;
+                                width: 299px;
+                                }
+                                    .programm-class-general {
+                                        padding-left: 34px;
+                                        padding-right:0px;
+                                    }
+                                    .programm-class {
+                                        margin-top: 25px;
+                                        padding-left: 44px;
+                                        padding-top: 14px;
+      
+                                    }
+                                    .programm-class-general .section-title{
+                                        margin-left: 0px;
+                                        padding-left: 0px;
+                                        font-size: 26px;
+                                        line-height: 26.36px;
+                                        height: 26.36px;
+                                    }
+                                    .programm-class .infocard {
+                                        width: 185.92px;
+                                        height: 152.84px;
+                                        margin: 12.8px;
+                                        flex-direction: column;
+      
+                                    }
+                                    .programm-class .imgcard {
+                                        width: 185.92px;
+                                        height: 76px;
+
+                                    }
+                                    .programm-class .info {
+                                        min-height: 78.28px ; 
+                                        padding: 0px 14px 0px 20px;
+ 
+                                    
+                                    }
+                                    .programm-class .subtitle {
+                                        font-size: 14px;
+                                        line-height: 18.2px;
+                                        padding-bottom: 4px;
+
+                                       
+                                    }
+                                    .programm-class .date-name {
+                                        font-size: 12px;
+                                        line-height: 15.6px;
+
+                                    }                         
+
 
 .information{
     position: absolute;
@@ -1160,3 +1402,14 @@
 }
 }
 /* Стили для мобильных экранов */ 
+=======
+
+
+
+
+
+
+
+
+/* Стили для мобильных экранов */
+>>>>>>> e5819a88aa810774765d8e69cc5582dbc20e8cd9
