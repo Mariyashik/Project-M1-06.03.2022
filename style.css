@@ -4,15 +4,15 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
     .wrapper-how-to-watch{
         width: 100%;
         max-width: 1600px;
-        margin: auto;
+        margin: 0 auto;
     }
     .how-to-watch{
         font-family: Roboto;
-        box-sizing: border-box;
         padding-top: 21px;
         margin: auto;
     }
@@ -77,7 +77,6 @@
         line-height: 81.11px;
         margin-bottom: 16px;
         padding-left: 122px;
-
     }
     .how-to-watch .text p{
         font-size: 20px;
@@ -255,6 +254,7 @@
                                         width: 100%;
                                         margin: 0 auto;
                                         padding-left: 68px;
+                                        margin-bottom: 110px;
                                         padding-right: 0px;
                                     }
                                     .programm-class {
@@ -305,9 +305,10 @@
                                                 .kurscount{
                                                     width: 100%;
                                                     height: 780px;
-                                                    margin: 0;
                                                     background-color: #EFEFEF;
                                                     margin-top: 109px;
+                                                    margin: 0 auto;
+                                                    margin-top: 100px;
                                                 }
                                                 .kurscount .section-title{
                                                     padding-top: 90px;
@@ -348,7 +349,7 @@
                                                 .kurscount .review-card .contact img{
                                                     width: 32px;
                                                     height: 31px;
-                                                    padding-top: 29px;
+                                                    margin-top: 29px;
                                                 }
                                                 .kurscount .review-card .contact{
                                                     margin-top: 40px;
@@ -475,25 +476,29 @@
                                                                         .footer .insta img{
                                                                             width: 33px;
                                                                             height: 33px;
+                                                                
                                                                         }
                                                                         .footer .vk img{
                                                                             width: 35px;
                                                                             height: 35px;
+                                                                            margin-left: 21px;
                                                                         }
                                                                         .footer .whatsapp img{
                                                                             width: 34px;
                                                                             height: 34px;
+                                                                            margin-left: 26px;
                                                                         }
                                                                         .footer .facebook img{
                                                                             width: 32px;
                                                                             height: 32px;
+                                                                            margin-left: 18px;
                                                                         }
 
 /* Стили для планшета */
 @media (max-width: 1279px){
-    .wrapper-one{
+    .wrapper-how-to-watch{
         width: 100%;
-        max-width: 1000px;
+        max-width: 834px;
         margin: auto;
     }
         .how-to-watch{
@@ -506,7 +511,7 @@
             padding: 0px;
         }
         .how-to-watch .logo img{
-            padding-left: 70px;
+            margin-left: 70px;
             width: 64.87px;
             height: 38.23px;
         }
@@ -531,12 +536,12 @@
         .how-to-watch .second-item img{
             width: 12.74px;
             height: 12.74px;
-            padding-top: 3px;
+            margin-top: 3px;
         }
         .how-to-watch .thrid-item img{
             width: 11.58px;
             height: 12.74px;
-            padding-top: 3px;
+            margin-top: 3px;
         }
         .how-to-watch .first-item p{
             padding-left: 5px;
@@ -556,8 +561,9 @@
         }
         .how-to-watch .content img{
             width: 176.07px;
-            padding-top: 17px;
-            padding-right: 56px;
+            margin-top: 17px;
+            margin-right: 56px;
+            padding-top: 0px;
         }
         .how-to-watch h1{
             font-size: 46px;
@@ -630,8 +636,10 @@
                     }
                     .about-course .images img{
                         width: 212px;
-                        padding-right: 6px;
-                        padding-top: 24px;
+                        padding-right: 0px;
+                        padding-top: 0px;
+                        margin-top: 25px;
+                        margin-right: 7px;
                     }
                     .about-course .bottom{
                         width: 70%;
@@ -671,7 +679,7 @@
                         margin-left: -10px;
                     } 
                                 .format-study{
-                                    padding-left: 149px;
+                                    padding-left: 70px;
                                     padding-top: 16px;
                                     margin: auto;
                                 }
@@ -703,12 +711,271 @@
                                 }
                                 .format-study .access{
                                     width: 172px;
-                                    padding-left: 47px;
+                                    margin-left: 47px;
                                 }
                                 .format-study .communication{
                                     width: 142px;
-                                    padding-left: 50px;
+                                    margin-left: 50px;
                                 }
+                                .what-know { 
+                                    flex-direction: column;
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    padding-left: 33px;
+                                    padding-right: 75px;
+                                    padding-top: 125px;
+                                    max-width: 1600px;
+                                }
+                                .what-know .section-title {
+                                font-size: 32px;
+                                line-height: 32.44px;
+                                margin-left: 37px;
+                                height: 93px;
+                                }
+                                .what-know .cheklist {
+                                font-size: 14px;
+                                line-height: 21px;
+                                margin-left: 47px;
+                                margin-top: -27px;
+                                margin-bottom: 150px;
+                                /* width: 44%;  */
+                                }
+                                    .programm-class-general {
+                                        padding-left: 68px;
+                                        margin-bottom: 42px;
+                                        padding-right: 0px
+                
+                                    }
+                                    .programm-class {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        margin-top: 60px;
+                                        margin-left: 45px;
+                                        width: 850px;
+                                    }
+                                    .programm-class-general .section-title{
+                                        max-width: 834px;
+                                        margin-top: -21px;
+                                        padding-left: 51px;
+                                        margin-left: 30px;
+                                    }
+                                    .programm-class .infocard {
+                                        width: 231px;
+                                        height: 190px;
+                                        margin: 12.5px;
+                                        box-shadow: 0 0 8px 0px gray;
+                                        border-radius: 17.5px;
+                                        background-color: white;
+                                    }
+                                    .programm-class .imgcard {
+                                        width: 231px;
+                                        height: 92.6px;
+                                        border-radius: 15px 15px 0 0
+                                    }
+                                    .programm-class .info {
+                                        min-height: 60px ; 
+                                        padding: 6px 14px 32px 19px;
+                                    
+                                    }
+                                    .programm-class .subtitle {
+                                        font-size: 17px;
+                                        line-height: 22.1px;
+                                        margin-left: -6px;
+                                    }
+                                    .programm-class .date-name {
+                                        font-size: 14px;
+                                        line-height: 18.2px;
+                                        padding-bottom: 37px;
+                                        padding-top: 18px;
+                                        margin-left: -8px;
+                                    }
+                                                .kurscount{
+                                                    width: 100%;
+                                                    height: 451.75px;
+                                                    margin: 0;
+                                                    background-color: #EFEFEF;
+                                                    margin-top: 10px;
+                                                }
+                                                .kurscount .section-title{
+                                                    padding-top: 54px;
+                                                    padding-left: 149px;
+                                                }
+                                                .kurscount .review-card{
+                                                    width: 458px;
+                                                    height: 261px;
+                                                    box-sizing: border-box;
+                                                    border-radius: 17.38px;
+                                                    background-color: #fff;
+                                                    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+                                                    margin-top: 41px;
+                                                    margin-left: 151px;
+                                                    padding: 24px 45px 39px 26px;
+                                                }
+                                                .kurscount .review-card p{
+                                                    font-family: Roboto;
+                                                    font-weight: normal;
+                                                    font-size: 12px;
+                                                    line-height: 18px;
+                                                }
+                                                .kurscount .author{
+                                                    display: flex;
+                                                    margin-top: 16px;
+                                                    margin-left: -11px;
+                                                }
+                                                .kurscount .review-card img{
+                                                    width: 110px;
+                                                    height: 98px;
+                                                }
+                                                .kurscount .review-card h3{
+                                                    font-family: Roboto Slab;
+                                                    font-weight: 700;
+                                                    font-size: 17px;
+                                                    line-height: 17.24px;
+                                                }
+                                                .kurscount .review-card .contact img{
+                                                    width: 18.53px;
+                                                    height: 17.95px;
+                                                    margin-top: 17px;
+                                                }
+                                                .kurscount .review-card .contact{
+                                                    margin-top: 22px;
+                                                    margin-left: 18px;
+                                                }
+                                                            .start-course{
+                                                                width: 100%;
+                                                                height: 451.75px;
+                                                                margin: 0;
+                                                                background-color: #9DC9C8;
+                                                                margin-top: 0px;
+                                                                font-family: Roboto;
+                                                                font-weight: 400;
+                                                            }
+                                                            .start-course .information{
+                                                                box-sizing: border-box;
+                                                                padding: 85px 0px 68px 129px;
+                                                            }
+                                                            .start-course .section-title{
+                                                                padding-top: 20px;
+                                                                padding-left: 20px;
+                                                            }
+                                                            .start-course .price-tag{
+                                                                padding-top: 37px;
+                                                                padding-left: 21px;
+                                                            }
+                                                            .start-course .price{
+                                                                font-size: 14px;
+                                                                line-height: 14.19px;
+                                                            }
+                                                            .start-course .num{
+                                                                font-size: 46px;
+                                                                line-height: 46.64px;
+                                                                padding-top: 3px;
+                                                            }
+                                                            .start-course .information-text{
+                                                                display: flex;
+                                                                justify-content: flex-start;
+                                                                padding-top: 42px;
+                                                                padding-left: 20px;
+                                                            }
+                                                            .start-course .information-text .subtitle{
+                                                                font-size: 14px;
+                                                                line-height: 14.19px;
+                                                            }
+                                                            .start-course .information-text .text{
+                                                                font-size: 10px;
+                                                                line-height: 10.14px;
+                                                                padding-top: 10px;
+                                                            }
+                                                            .start-course .info-one{
+                                                                width: 170.28px;
+                                                            }
+                                                            .start-course .info-two{
+                                                                width: 170.28px;
+                                                                margin-left: 41px;
+                                                            }
+                                                                        .footer{
+                                                                            width: 100%;
+                                                                            height: 226px;
+                                                                            margin: 0;
+                                                                            background-color: #000000;
+                                                                            margin-top: 0px;
+                                                                            font-family: Roboto;
+                                                                            font-weight: 400;
+                                                                        }
+                                                                        .footer .logo img {
+                                                                            width: 66.6px;
+                                                                            height: 39.38px;
+                                                                        }
+                                                                        .footer .logo-contacts{
+                                                                            color: white;
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            font-size: 14px;
+                                                                            line-height: 14.19px;
+                                                                            padding: 31px 163px 19px 149px;
+                                                                        }
+                                                                        .footer .contacts{
+                                                                            margin-top: 11px;
+                                                                        }
+                                                            
+                                                                        .footer .mobile{
+                                                                            display: flex;
+                                                                        }
+                                                                        .footer .mail{
+                                                                            display: flex;
+                                                                        }
+                                                                        .footer .icons{
+                                                                            display: flex;  
+                                                                            justify-content: space-between;
+                                                                            width: 198px;      
+                                                                            padding-left: 148px;    
+                                                                            padding-top: 0px;  
+                                                                            margin-top: -16px;     
+                                                                        }
+                                                                        .footer .mark{
+                                                                            color: white;
+                                                                            font-size: 10px;
+                                                                            line-height: 10.14px;
+                                                                            padding-left: 150px;
+                                                                            padding-top: 81px;
+                                                                        }
+                                                                        .footer .mobile-icon{
+                                                                            margin-left: -20px;
+                                                                            padding-right: 22px;
+
+                                                                        }
+                                                                        .footer .mobile-icon img{
+                                                                            width: 15.64px;
+                                                                            height: 15.64px;                   
+                                                                        }
+                                                                        .footer .mail-icon img{
+                                                                            width: 15.64px;
+                                                                            height: 10.43px;
+                                                                        }
+                                                                        .footer .mail-icon{
+                                                                            margin-left: -20px;
+                                                                            padding-right: 22px;
+                                                                            padding-top: 10px;
+                                                                        }
+                                                                        .footer .address{
+                                                                            padding-top: 10px;
+                                                                        }
+                                                                        .footer .insta img{
+                                                                            width: 19.11px;
+                                                                            height: 19.11px;
+                                                                        }
+                                                                        .footer .vk img{
+                                                                            width: 20.27px;
+                                                                            height: 20.27px;
+                                                                        }
+                                                                        .footer .whatsapp img{
+                                                                            width: 19.69px;
+                                                                            height: 19.69px;
+                                                                        }
+                                                                        .footer .facebook img{
+                                                                            width: 18.53px;
+                                                                            height: 18.53px;
+                                                                        } 
 }
 
 
@@ -717,7 +984,7 @@
 
     .wrapper-two{
         width: 100%;
-        max-width: 900px;
+        min-width: 834px;
         margin: auto;
     }
         .how-to-watch{
